@@ -1,0 +1,8 @@
+/.vs/
+
+/out/
+!/out/build/x64-Debug/ActionsNRules/actions.txt
+!/out/build/x64-Debug/ActionsNRules/rules.txt
+!/out/build/x64-Debug/Config
+!/out/build/x64-Debug/RequestStructure
+!/out/build/x64-Debug/SavesPreviousActions
