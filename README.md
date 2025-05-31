@@ -6,13 +6,19 @@
 
 * Run "*.bat" in the vcpkg folder
 
-* Run "vcpkg intergate install" in the vcpkg folder
+* Run "vcpkg integrate install" in the vcpkg folder
 
 * Add to CmakeSettings TOOLCHAIN path to vcpkg.cmake
 ----
 #### Add dependencies
 * Run: "vcpkg "@.\vcpkg_rf.txt"" in the project folder
 
+* Add to CmakeList:
+	find_package
+	target_link_libraries
+##### Alternative
+* install libraries "cpr", "nlohmann-json" in vcpkg folder
+* use "vcpkg install cpr" "vcpkg install nlohmann-json"
 * Add to CmakeList:
 	find_package
 	target_link_libraries
