@@ -32,9 +32,9 @@
 
 ## The Program Modules
 
-* ModelCommunication - the main module, with the interaction of query modules and ai module
-* RequestProcessing - the module for processing incoming requests from ai model
-* ProgramRequests - the initial task request for the model
-* UserRequests - requests from the user to interact with the model
 * AIModel - he module that sends requests to the AI model
+* ProgramRequests - generates queries for the model at each step of the narrative (with each user action)
+* RequestProcessing - the module for processing incoming requests from ai model
+
+* ModelCommunication - the main module, with the interaction of query modules and ai module
 
