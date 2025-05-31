@@ -6,7 +6,7 @@
 
 * Run "*.bat" in the vcpkg folder
 
-* Run "vcpkg intergate" in the vcpkg folder
+* Run "vcpkg intergate install" in the vcpkg folder
 
 * Add to CmakeSettings TOOLCHAIN path to vcpkg.cmake
 ----
